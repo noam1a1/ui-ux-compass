@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="UI/UX Compass: understand before designing, plan before building" width="100%">
+</p>
+
 # UI/UX Compass
 
 **An agent skill that makes Claude understand before it designs, and plan before it builds.**
@@ -40,6 +44,8 @@ ui-ux-compass/
 │   ├── performance.md            # Performance budget and heavy-style fallbacks
 │   ├── visual-previews.md        # Building side-by-side direction previews
 │   └── qa-verification.md        # Verifying each milestone
+├── assets/
+│   └── banner.svg                # README banner
 ├── scripts/
 │   └── capture_screens.py        # Playwright screenshots + overflow, console-error & touch-target checks
 └── examples/
@@ -59,10 +65,10 @@ ui-ux-compass/
 ### Claude Code
 ```bash
 # Personal (all projects)
-git clone https://github.com/<your-username>/ui-ux-compass ~/.claude/skills/ui-ux-compass
+git clone https://github.com/noam1a1/ui-ux-compass ~/.claude/skills/ui-ux-compass
 
 # Or per project
-git clone https://github.com/<your-username>/ui-ux-compass .claude/skills/ui-ux-compass
+git clone https://github.com/noam1a1/ui-ux-compass .claude/skills/ui-ux-compass
 ```
 
 ### Claude apps (Claude.ai / Desktop)
